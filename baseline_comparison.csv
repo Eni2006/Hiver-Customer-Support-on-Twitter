@@ -1,0 +1,4 @@
+baseline,accuracy,weighted_precision,weighted_recall,weighted_f1
+Majority class,0.1,0.01,0.1,0.018181818181818184
+Keyword rules,1.0,1.0,1.0,1.0
+TF-IDF + Logistic Regression,0.6,0.708,0.6,0.5907965367965368

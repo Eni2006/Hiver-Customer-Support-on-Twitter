@@ -1,0 +1,6 @@
+customer,intent,confidence,action,reason
+Where is my order? It was supposed to arrive yesterday.,order_status,0.91,auto_handle,Routine order status request with a standard support path; suitable for automated handling.
+Someone used my card without permission.,payment_billing,0.94,escalate,"Potential fraud, unauthorized activity, or account-security risk requires human review."
+I cannot log into my Amazon account.,account_login,0.88,escalate,Account or payment issue may require account-specific verification or human intervention.
+Can you help me return this item?,refund_return,0.87,auto_handle,Routine refund return request with a standard support path; suitable for automated handling.
+This message is confusing and I don't know what I need.,general_support,0.41,escalate,"Intent-classification confidence is below the safety threshold, so human review is preferred."

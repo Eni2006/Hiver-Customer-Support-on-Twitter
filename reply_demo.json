@@ -1,0 +1,12 @@
+{
+  "customer": "Where is my order? It was supposed to arrive yesterday.",
+  "intent": "order_status",
+  "historical_evidence": [
+    "@182573 Apologies for the ordeal. This wasn't intended. We'll be sure to forward this internally to ensure this won't be repeated. ^VN",
+    "@219975 I realize you've had an unpleasant experience. Please understand that we'll not be able to initiate an advance refund for a product. It must reach our facility for an automated refund. Appreciate your understanding here. ^JC",
+    "@221855 ¿Nos podrías indicar si este pedido es vendido directamente por Amazon o por un vendedor externo? ^ES",
+    "@287012 Das ist in der Tat viel Verpackung für den Artikel. Du kannst uns über den folgenden Link Feedback zur Verpackung geben: https://t.co/dLhbMTHfvK So erreicht es direkt unsere zuständige Stelle. :) ^SK",
+    "@190810 Thanks for the heads up. We're here to help if you need us. ^VN"
+  ],
+  "generated_reply": "Sorry for the wait. Please check your order details for the current carrier and delivery status, and send us a DM if you need further help."
+}

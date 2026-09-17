@@ -1,23 +1,16 @@
-# Hiver-Customer-Support-on-Twitter
+# Hiver AmazonHelp AI Support Agent
 
-## Dataset
+Pipeline:
+Customer Tweet -> Intent Classification -> Historical Retrieval -> Grounded Reply -> Auto-handle/Escalate
 
-This project uses the Customer Support on Twitter dataset
-(`thoughtvector/customer-support-on-twitter`).
+Selected brand: AmazonHelp
 
-Due to the size of the original dataset, only a sample/subset
-is used for development and evaluation.
+## Run
+1. Install: `pip install -r requirements.txt`
+2. Run: `python pipeline.py "Where is my order? It was supposed to arrive yesterday."`
 
-The sample dataset is available in:
+## Output
+The pipeline returns intent, confidence, top historical customer/reply examples, a conservative reply, action, and escalation reason.
 
-`data/sample.csv`
-
-The dataset contains the following fields:
-
-- `tweet_id`
-- `author_id`
-- `inbound`
-- `created_at`
-- `text`
-- `response_tweet_id`
-- `in_response_to_tweet_id`
+## Important evaluation note
+The current intent labels are an initial automated labeling pass over a Golden Set. Before submission, the 200 examples should be manually reviewed because Hiver explicitly asks for a hand-labelled Golden Evaluation Set.
